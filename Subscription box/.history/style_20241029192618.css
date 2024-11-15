@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background: url("https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQWbUWF7Nk3210EvR_PyyslFX6gIC3gltG0_Qmgxr2uzlF0F7oKioGh_rMVKCFUe1WcQYbi0rlFHDm2lrD8tSWA-MGedijFrSC5-C2tzUx7I2ibJl6jg9gsxs-sP5WTnXoseWkv1VqKOmCIllomd8s7Qd-D0.jpg?r=eb4");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;   
+    background-color: aliceblue;
+}
+nav img{
+    width: 200px;
+    height: 160px;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(66, 94, 252);
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: rgb(2, 0, 0);
+    border: 1px solid rgb(2, 0, 0);
+}
+
+nav button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+}    
+nav button:hover{
+    background-color: rgb(2, 0, 0);
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.btn{
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 650px;
+}    
+.btn:hover{
+    background-color: rgb(2, 0, 0);
+}

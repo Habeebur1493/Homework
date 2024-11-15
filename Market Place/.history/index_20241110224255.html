@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    
+    <div class="main">
+        <nav>
+            <h1>Zee-Mart</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+
+            <button>Sign Up</button>
+            <button>Log In</button>
+        </nav>
+
+        <div class="grid">
+            <div class="plate">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h2>Smart Watch</h2>
+                <p>3.99$</p>
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+                
+            </div>
+            <div class="plate">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h2>Head Phones</h2>
+                <p>5.60$</p>
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+            <div class="plate">
+                <img src="https://plus.unsplash.com/premium_photo-1719289799376-d3de0ca4ddbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h2>Cofee Mug</h2>
+                <p>1.25$</p>
+                <button>Add to Cart</button>
+                <button>Buy Now</button>                   
+            </div>
+
+            <div class="plate">
+                <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAyfHxwcm9kdWN0fGVufDB8fDB8fHww" alt="">
+                <h2>Cooling Glass</h2>
+                <p>4.47$</p>
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        
+        <div class="movingtxt">
+            <span>Featured Products Only at Zee-Mart. 10% OFF on each Products. Multiple Discounts and Free Delivery.</span>
+            <span>Featured Products Only at Zee-Mart. 10% OFF on each Products. Multiple Discounts and Free Delivery.</span>
+        </div>        
+    </div>
+
+    <div class="main2">
+        
+        <div class="container">
+            <div class="product-box">
+
+            </div>
+            <div class="rating-box">
+                <header>How was your experience?</header>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <br>
+                <br>
+                <form action="#">
+                  <textarea cols="30" rows="10" placeholder="Write your review here..."></textarea>
+                  <button>Submit Review</button>
+                </form>
+              </div>
+        </div>
+        
+    </div>
+
+    <div class="main3">
+        <div class="checkout-panel">
+            <div class="panel-body">
+              <h2 class="title">Checkout here!</h2>
+           
+              <div class="progress-bar">
+                <div class="step active"></div>
+                <div class="step active"></div>
+                <div class="step"></div>
+                <div class="step"></div>
+              </div>
+           
+              <div class="payment-method">
+                <label for="card" class="method card">
+                  <div class="card-logos">
+                    <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                    <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+                  </div>
+           
+                  <div class="radio-input">
+                    <input id="card" type="radio" name="payment">
+                    Pay AU$20.99 with credit card
+                  </div>
+                </label>
+           
+                <label for="paypal" class="method paypal">
+                  <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+                  <div class="radio-input">
+                    <input id="paypal" type="radio" name="payment">
+                    Pay AU$20.99 with PayPal
+                  </div>
+                </label>
+              </div>
+           
+              <div class="input-fields">
+                <div class="column-1">
+                  <label for="cardholder">Name</label>
+                  <input type="text" id="cardholder" />
+           
+                  <div class="small-inputs">
+                    <div>
+                      <label for="date">Valid date</label>
+                      <input type="text" id="date"/>
+                    </div>
+           
+                    <div>
+                      <label for="verification">CVV / CVC *</label>
+                      <input type="password" id="verification"/>
+                    </div>
+                  </div>
+           
+                </div>
+                <div class="column-2">
+                  <label for="cardnumber">Card Number</label>
+                  <input type="password" id="cardnumber"/>
+           
+                  <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+                </div>
+              </div>
+            </div>
+           
+            <div class="panel-footer">
+              <button class="btn back-btn">Back</button>
+              <button class="btn next-btn">Next Step</button>
+            </div>
+          </div>
+          
+          
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

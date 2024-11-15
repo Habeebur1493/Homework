@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background: url("https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQWbUWF7Nk3210EvR_PyyslFX6gIC3gltG0_Qmgxr2uzlF0F7oKioGh_rMVKCFUe1WcQYbi0rlFHDm2lrD8tSWA-MGedijFrSC5-C2tzUx7I2ibJl6jg9gsxs-sP5WTnXoseWkv1VqKOmCIllomd8s7Qd-D0.jpg?r=eb4");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;   
+    background-color: aliceblue;
+}
+nav img{
+    width: 200px;
+    height: 160px;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(66, 94, 252);
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(2, 0, 0);
+    border: 1px solid rgb(2, 0, 0);
+}
+
+nav button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}    
+nav button:hover{
+    background-color: rgb(2, 0, 0);
+}
+
+p{
+    color: white;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.btn{
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 680px;
+    cursor: pointer;
+}    
+.btn:hover{
+    background-color: rgb(2, 0, 0);
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(66, 94, 252);
+    box-shadow: 2px 2px 2px 2px rgb(75, 72, 72);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.box ul{
+   list-style-type: disc;
+   padding-left: 30px;
+
+}
+
+.box h1{
+    text-align: center;
+    padding: 20px;
+    border: 5px solid white;
+
+}
+
+.box p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(2, 0, 0);
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+    cursor: pointer;
+
+}    
+.box button:hover{
+    background-color: white;
+    color: rgb(66, 94, 252);
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 94, 252);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap:80px;
+    height: 100%;
+    width: 100%;
+    margin-left: 90px;
+    padding-top: 50px;
+
+    }
+
+.gridbox{
+    height: 250px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.gridbox img{
+    height: 250px;
+    width: 160px;   
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.gridbox button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(66, 94, 252);
+    font-size: 15px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.gridbox button:hover{
+    background-color: black;
+    color: white;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.fullscreen {
+    width:100vw;
+    height:100vh;
+    background:#ffcc11;
+    .container {
+      padding:15px;
+      max-width:1200px;
+      margin:auto;
+      height:100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      .card {
+        overflow:hidden;
+        width:30%;
+        height:70%;
+        background:#fff;
+        box-shadow:1px 22px 44px rgba(0,0,0,.19);
+        transition:0.6s;
+        border-radius:2px;
+        position:relative;
+        display:flex; 
+        &:hover {
+          transform:translateY(-15px);
+          box-shadow:1px 12px 34px rgba(0,0,0,.31);
+          .sinopse{
+            opacity:1;
+            transition-delay:0.4s;
+            .view{
+              opacity:1;
+              transform:translateY(0%);
+              transition:0.6s;
+              transition-delay:1s;
+            }
+            .content-sinopse {
+              .text{
+                transform:translateY(0);
+                transition-delay:0.6s;
+              }
+              .title {
+                transform:translateY(0);
+                transition-delay:0.2s;
+              }
+            }
+          }
+          .date{
+            transform:translateY(-100%);
+            opacity:0;
+          }
+          .content{
+              transform:translateY(100%);
+              opacity:0;
+          }
+        }
+        .date{
+          position:absolute;
+          top:25px;
+          right:25px;
+          color:#fff;
+          font-weight:300;
+          font-size:14px;
+          transition:0.8s;
+          .tv_ico {
+            img {
+              width:12px;
+              vertical-align:baseline;
+              margin-left:6px;
+            }
+          }
+        }
+        .content{
+          transition:0.8s;
+          display:flex;
+          flex-wrap:wrap;
+          align-self:flex-end;
+          padding:25px 25px 50px 25px;
+          .title{
+            width:100%;
+            color:#fff;
+            font-size:44px;
+            font-weight:700;
+            line-height:50px;
+            margin-bottom:12px;
+          }
+          .text{
+            width:100%;
+            color:#fff;
+            font-size:16px;
+            font-weight:300;
+          }
+        }
+        .sinopse {
+          width:100%;
+          height:100%;
+          position:absolute;
+          top:0;
+          left:0;
+          padding:25px 25px 50px 25px;
+          background:rgba(0,0,0,.78);
+          color:#fff;
+          font-weight:300;
+          opacity:0;
+          transition:0.8s;
+          display:flex;
+          align-items:flex-end;
+          flex-wrap:wrap;
+          iframe {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            margin-left: -30px;
+            height: 260px;
+          }
+          .view {
+            position:absolute;
+            bottom:15px;
+            right:25px;
+            color:#fff;
+            font-size:14px;
+            border-bottom:1px solid #fff;
+            opacity:0;
+            transform:translateY(100%);
+            transition:0.6s;
+            cursor:pointer;
+          }
+          .content-sinopse{
+            .title{
+              color:rgba(255,255,255,.6);
+              font-size:22px;
+              font-weight:700;
+              margin-bottom:12px;
+              transform:translateY(-100%);
+              transition:0.6s;
+            }
+            .text{
+              transform:translateY(100%);
+              transition:0.6s;
+              color:rgba(255,255,255,.6);
+              font-weight:300;
+              font-size:14px;
+            }
+          }
+        }
+        &_1 {
+    background:url('https://w.wallhaven.cc/full/j8/wallhaven-j8gqyq.jpg') no-repeat center/cover;
+        }
+        &_2 {
+    background:url('https://w.wallhaven.cc/full/5d/wallhaven-5dpo51.jpg') no-repeat 45%/cover;
+        }
+        &_3 {
+          background:linear-gradient(to bottom, rgba(0,0,0,.75),rgba(0,0,0,0), rgba(0,0,0,.88)),url('https://w.wallhaven.cc/full/43/wallhaven-43y676.jpg') no-repeat center/cover;
+        }
+      }
+    }
+  }
+  
+  
+  .fullserie {
+    background-color: #333;
+    -webkit-clip-path: circle(0% at 0 100%);
+    clip-path: circle(0% at 0 100%);
+    min-height:550px;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    transition:.6s;
+    &.active {
+      background-color: #333;
+      transition:.6s;
+      transition-delay:0.45s;
+      -webkit-clip-path: circle(270% at 220px 88%);
+      clip-path: circle(270% at 220px 88%);
+    }
+    .close {
+      position:absolute;
+      right:5px;
+      top:5px;
+      height:50px;
+      width:50px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      img {
+        width:22px;
+      }
+    }
+    .episodes {
+      display:grid;
+      grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-rows:repeat(4, minmax(230px, auto));
+      grid-gap:30px;
+      grid-auto-flow:dense;
+      grid-auto-rows:minmax(260px, auto);
+      width:100%;
+      height:100%;
+      padding:60px 60px 120px 60px;
+      .episode {
+     background:red;
+      }
+    }
+  }
+  
+  @media(min-width:580px) and (max-width:992px){
+    .fullscreen {
+      height:auto;
+      .container {
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        
+        .card {
+          overflow:hidden;
+          width:45%;
+          height:400px;
+          background:#fff;
+          box-shadow:1px 22px 44px rgba(0,0,0,.19);
+          transition:0.6s;
+          border-radius:2px;
+          position:relative;
+          display:flex;
+          margin-bottom:10%;
+          &:nth-child(-n+2){
+            margin-top:10%;
+          }
+          .content{
+            .title{
+              width:100%;
+              color:#fff;
+              font-size:28px;
+              font-weight:700;
+              line-height:36px;
+              margin-bottom:12px;
+            }
+            .text{
+              width:100%;
+              color:#fff;
+              font-size:14px;
+              font-weight:300;
+            }
+          }
+          .sinopse {
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            padding:25px 25px 50px 25px;
+            background:rgba(0,0,0,.78);
+            color:#fff;
+            font-weight:300;
+            opacity:0;
+            transition:0.8s;
+            display:flex;
+            align-items:flex-end;
+            flex-wrap:wrap;
+            iframe {
+              position: absolute;
+              top: 0;
+              width: 100%;
+              margin-left: -30px;
+              height: 260px;
+            }
+            .view {
+              position:absolute;
+              bottom:15px;
+              right:25px;
+              color:#fff;
+              font-size:14px;
+              border-bottom:1px solid #fff;
+              opacity:0;
+              transform:translateY(100%);
+              transition:0.6s;
+              cursor:pointer;
+            }
+            .content-sinopse{
+              .title{
+                color:rgba(255,255,255,.6);
+                font-size:22px;
+                font-weight:700;
+                margin-bottom:12px;
+                transform:translateY(-100%);
+                transition:0.6s;
+              }
+              .text{
+                transform:translateY(100%);
+                transition:0.6s;
+                color:rgba(255,255,255,.6);
+                font-weight:300;
+                font-size:14px;
+              }
+            }
+          }
+          &_1 {
+            background:url('https://w.wallhaven.cc/full/j8/wallhaven-j8gqyq.jpg') no-repeat center/cover;
+          }
+          &_2 {
+            background:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,.98)),url('https://w.wallhaven.cc/full/5d/wallhaven-5dpo51.jpg') no-repeat 45%/cover;
+          }
+          &_3 {
+            background:linear-gradient(to bottom, rgba(0,0,0,.75),rgba(0,0,0,0), rgba(0,0,0,.88)),url('https://w.wallhaven.cc/full/43/wallhaven-43y676.jpg') no-repeat center/cover;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  @media(min-width:320px) and (max-width:580px){
+    .fullscreen {
+      height:auto;
+      .container {
+        flex-wrap:wrap;
+        .card {
+        overflow:hidden;
+        width:90%;
+        height:400px;
+        background:#fff;
+        box-shadow:1px 22px 44px rgba(0,0,0,.19);
+        transition:0.6s;
+        border-radius:2px;
+        position:relative;
+        display:flex;
+          margin-bottom:10%;
+          .content{
+            .title{
+              width:100%;
+              color:#fff;
+              font-size:28px;
+              font-weight:700;
+              line-height:36px;
+              margin-bottom:12px;
+            }
+            .text{
+              width:100%;
+              color:#fff;
+              font-size:14px;
+              font-weight:300;
+            }
+          }
+          .sinopse {
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            padding:25px 25px 50px 25px;
+            background:rgba(0,0,0,.78);
+            color:#fff;
+            font-weight:300;
+            opacity:0;
+            transition:0.8s;
+            display:flex;
+            align-items:flex-end;
+            flex-wrap:wrap;
+            iframe {
+              position: absolute;
+              top: 0;
+              width: 100%;
+              margin-left: -30px;
+              height: 260px;
+            }
+            .view {
+              position:absolute;
+              bottom:15px;
+              right:25px;
+              color:#fff;
+              font-size:14px;
+              border-bottom:1px solid #fff;
+              opacity:0;
+              transform:translateY(100%);
+              transition:0.6s;
+              cursor:pointer;
+            }
+            .content-sinopse{
+              pointer-events:none;
+              .title{
+                color:rgba(255,255,255,.6);
+                font-size:22px;
+                font-weight:700;
+                margin-bottom:12px;
+                transform:translateY(-100%);
+                transition:0.6s;
+              }
+              .text{
+                pointer-events:none;
+                transform:translateY(100%);
+                transition:0.6s;
+                color:rgba(255,255,255,.6);
+                font-weight:300;
+                font-size:14px;
+              }
+            }
+          }
+          &_1 {
+            background:url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-616574.jpg') no-repeat center/cover;
+          }
+          &_2 {
+            background:url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-539333.png') no-repeat 45%/cover;
+          }
+          &_3 {
+            background:linear-gradient(to bottom, rgba(0,0,0,.75),rgba(0,0,0,0), rgba(0,0,0,.88)),url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-5379.png') no-repeat center/cover;
+          }
+        }
+      }
+    }
+  }

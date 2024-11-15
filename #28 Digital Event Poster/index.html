@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="section">
+        <div class="container">
+          <div class="slider" id="scroller">
+            <div class="card card-1">
+              <div class="visual">
+                <img
+                  class="img"
+                  width="400"
+                  height="400"
+                  src="https://plus.unsplash.com/premium_photo-1681843126728-04eab730febe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="A 3D rendering of a futuristic hotel created by AI"
+                />
+              </div>
+              <div class="content">
+                <div class="meta">
+                  <h2 class="title">Doctor's Speech</h2>
+                  <div class="desc">
+                    As we get involved in the emotional healing of others, we get healed
+                    emotionally ourselves.
+                  </div>
+                </div>
+
+                <div class="card-actions">
+                  <a class="btn common-btn primary" href="#">Doctor's Guidance</a>
+                  <a class="btn common-btn" href="#">Healthy Life</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-2">
+              <div class="visual">
+                <img
+                  class="img"
+                  width="400"
+                  height="400"
+                  src="https://images.unsplash.com/photo-1649260257620-3fd04e1952e5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="A 3D rendering of a futuristic hotel created by AI"
+                />
+              </div>
+              <div class="content">
+                <div class="meta">
+                  <h2 class="title">Save a Life</h2>
+                  <div class="desc">
+                    IRC is an initiative by Indian Society of Anaesthesiologists to promote accurate and scientific resuscitation training & guidelines.
+                  </div>
+                </div>
+
+                <div class="card-actions">
+                  <a class="btn common-btn primary" href="#">CPR training</a>
+                  <a class="btn common-btn" href="#">Safety Procedures</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-3">
+              <div class="visual">
+                <img
+                  class="img"
+                  width="400"
+                  height="400"
+                  src="https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="A 3D rendering of a futuristic hotel created by AI"
+                />
+              </div>
+              <div class="content">
+                <div class="meta">
+                  <h2 class="title">Surgeons in India</h2>
+                  <div class="desc">
+                    India is becoming a popular destination for surgery due to its skilled surgeons, modern facilities, and international standards. 
+                  </div>
+                </div>
+
+                <div class="card-actions">
+                  <a class="btn common-btn primary" href="#">Surgical Procedures</a>
+                  <a class="btn common-btn" href="#">Treatments</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-controls">
+            <div class="slider-controls-wrapper">
+              <button
+                class="control-button prev"
+                aria-label="Go to previous"
+                onclick="scroller.scrollBy(-100, 0)"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#5f6368"
+                >
+                  <path
+                    d="m414.67-480.67 170 170q9.66 9.67 9.33 23.34-.33 13.66-10 23.33-9.67 9.67-23.67 9.67-14 0-23.66-9.67L343.33-457.33q-5.33-5.34-7.5-11-2.16-5.67-2.16-12.34 0-6.66 2.16-12.33 2.17-5.67 7.5-11l194-194q9.67-9.67 23.67-9.67 14 0 23.67 9.67 9.66 9.67 9.66 23.67 0 14-9.66 23.66l-170 170Z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="control-button next"
+                aria-label="Go to next"
+                onclick="scroller.scrollBy(100, 0)"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40px"
+                  viewBox="0 -960 960 960"
+                  width="40px"
+                  fill="#5f6368"
+                >
+                  <path
+                    d="m521.33-480.67-170-170q-9.66-9.66-9.33-23.33.33-13.67 10-23.33 9.67-9.67 23.67-9.67 14 0 23.66 9.67L592.67-504q5.33 5.33 7.5 11 2.16 5.67 2.16 12.33 0 6.67-2.16 12.34-2.17 5.66-7.5 11l-194 194q-9.67 9.66-23.34 9.33-13.66-.33-23.33-10-9.67-9.67-9.67-23.67 0-14 9.67-23.66l169.33-169.34Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="pagination">
+            <div class="pagination-wrapper">
+              <span class="marker marker-1"></span>
+              <span class="marker marker-2"></span>
+              <span class="marker marker-3"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

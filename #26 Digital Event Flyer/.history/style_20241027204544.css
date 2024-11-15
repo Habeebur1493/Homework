@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+    
+h1 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.A1{
+    color: red;
+    animation: A1 2s infinite;
+}
+
+.A2{
+    color: white;
+    animation: A2 2s linear infinite;
+}
+
+.A3{
+    color: green;
+    animation: A3 2s infinite;
+}
+
+
+
+@keyframes A2 {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+@keyframes A1 {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes A3 {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+nav button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+nav h2{
+    color: white;
+}

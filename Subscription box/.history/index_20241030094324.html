@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Studios</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="page1">
+        
+        <nav>
+            <img src="jason-studios-high-resolution-logo-removebg-preview.png" alt="">
+            <ul>
+                <li><a href="index.html">Home</li>
+                <li><a href="about.html">Movies</li>
+                <li><a href="contact.html">Songs</li>
+                <li><a href="contact.html">Webseries</li>
+                <li><a href="contact.html">Live TV</a></li>
+                <li><a href="contact.html">Downloads</a></li>
+                
+                <button>Subscribe Now</button>
+                <button>Log In</button>                
+            </ul>
+        </nav>
+
+        <p>Jason Studios Presents your favourite movies and webseries. Make your own playlist. Watch your favorite movies and webseries online and offline.</p>
+        <button class="btn">Watch Now</button>
+    </div>
+
+    <div class="page2">
+        <div class="container">
+            <div class="box">
+                <h1>Basic Plan</h1>
+                <p>$9.00</p>
+                <h2>1 Month</h2>
+                <ul>
+                    <li>30 Movies</li>
+                    <li>5 Webseries</li>
+                    <li>5 Live TV Channels</li>
+                    <li>3 Downloads</li>
+                    <li>Limited Access</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+            <div class="box">
+                <h1>Standard Plan</h1>
+                <p>$18.00</p>
+                <h2>3 Months</h2>
+                <ul>
+                    <li>60 Movies</li>
+                    <li>10 Webseries</li>
+                    <li>10 Live TV Channels</li>
+                    <li>25 Downloads</li>
+                    <li>Major Access</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+            <div class="box">
+                <h1>Premium Plan</h1>
+                <p>$27.00</p>
+                <h2>6 Months</h2>
+                <ul>
+                    <li>90 Movies</li>
+                    <li>50 Webseries</li>
+                    <li>25 Live TV Channels</li>
+                    <li>Unlimited Downloads</li>
+                    <li>Unlimited Access</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="page3">
+        <div class="grid">
+            
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/2024/jan/01/deadpool-wolverine-2024.jpg" alt=""><button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/light/011/Venom.2018.jpg" alt=""> <button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/2024/sept/joker-folie-a-deux-2024.jpg" alt=""><button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/2024/jan/01/agatha-all-along-2024.jpg" alt=""> <button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/light/011/Batman%20%28T.A.S%29.jpg" alt=""><button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/2021/nov/01/noahs-shark-2021.jpg" alt=""><button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://images.m4ufree.se/asset/light/017/Lionheart.2018.jpg" alt=""><button>Watch Now</button></div>
+            <div class="gridbox"> <img src="https://photo.m4ufree.se/uploads/950010000/Star-Wars-Than-Luc-Thuc-Tinh-2015-IMDb.jpg" alt=""><button>Watch Now</button></div>
+            
+        </div>
+    </div>
+
+    <div class="page4">
+        <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+            <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+             <p>Your user agent does not support the HTML5 Video element.</p>
+       </video>
+      <div id="buttons">
+            <button class="large awesome" onclick="document._video.load()">load()</button>
+            <button class="large awesome" onclick="document._video.play()">play()</button>
+            <button class="large awesome" onclick="document._video.pause()">pause()</button>
+            <button class="large awesome" onclick="document._video.currentTime+=10">currentTime+=10</button>
+            <button class="large awesome" onclick="document._video.currentTime-=10">currentTime-=10</button>
+            <button class="large awesome" onclick="document._video.currentTime=50">currentTime=50</button><br>
+            <button class="large awesome" onclick="document._video.playbackRate++">playbackRate++</button>
+            <button class="large awesome" onclick="document._video.playbackRate--">playbackRate--</button>
+            <button class="large awesome" onclick="document._video.playbackRate+=0.1">playbackRate+=0.1</button>
+            <button class="large awesome" onclick="document._video.playbackRate-=0.1">playbackRate-=0.1</button><br>
+            <button class="large awesome" onclick="document._video.volume+=0.1">volume+=0.1</button>
+            <button class="large awesome" onclick="document._video.volume-=0.1">volume-=0.1</button>
+            <button class="large red awesome" onclick="document._video.muted=true">muted=true</button>
+            <button class="large red awesome" onclick="document._video.muted=false">muted=false</button><br>
+            <button class="large blue awesome" onclick="switchVideo(0);">Sintel teaser</button>
+            <button class="large blue awesome" onclick="switchVideo(1);">Bunny trailer</button>
+            <button class="large blue awesome" onclick="switchVideo(2);">Bunny movie</button>
+            <button class="large blue awesome" onclick="switchVideo(3);">Test movie</button>
+          </div>
+    </div>
+
+    <div class="page5">
+        <footer>
+            <h1>Jason Studios</h1>
+            <p>Jason Studios Presents your favourite movies and webseries. Make your own playlist. Watch your favorite movies and webseries online and offline.</p>
+            <ul>
+                <li>Home</li>
+                <li>Movies</li>
+                <li>Songs</li>
+                <li>Webseries</li>
+                <li>Live TV</li>
+                <li>Downloads</li>
+            </ul>
+            <p>© 2022 Jason Studios. All rights reserved.</p>
+            <div class="social_profile">
+                <ul>
+                    <li><a href=""><i class='bx bxl-facebook-circle' style='color:#4b49d5'  ></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter' style='color:#24ccf6'  ></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram' style='color:#ee5308'  ></i></a></li>
+                    <li><a href=""><i class='bx bxl-youtube' style='color:#ee0808'  ></i></a></li>
+                    <li><a href=""><i class='bx bxl-linkedin' style='color:#08a7ee'  ></i></a></li>
+                </ul>    
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

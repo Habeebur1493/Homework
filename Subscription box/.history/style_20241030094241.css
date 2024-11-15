@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background: url("https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQWbUWF7Nk3210EvR_PyyslFX6gIC3gltG0_Qmgxr2uzlF0F7oKioGh_rMVKCFUe1WcQYbi0rlFHDm2lrD8tSWA-MGedijFrSC5-C2tzUx7I2ibJl6jg9gsxs-sP5WTnXoseWkv1VqKOmCIllomd8s7Qd-D0.jpg?r=eb4");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;   
+    background-color: aliceblue;
+}
+nav img{
+    width: 200px;
+    height: 160px;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(66, 94, 252);
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(2, 0, 0);
+    border: 1px solid rgb(2, 0, 0);
+}
+
+nav button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}    
+nav button:hover{
+    background-color: rgb(2, 0, 0);
+}
+
+p{
+    color: white;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.btn{
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 94, 252);
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 680px;
+    cursor: pointer;
+}    
+.btn:hover{
+    background-color: rgb(2, 0, 0);
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(66, 94, 252);
+    box-shadow: 2px 2px 2px 2px rgb(75, 72, 72);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.box ul{
+   list-style-type: disc;
+   padding-left: 30px;
+
+}
+
+.box h1{
+    text-align: center;
+    padding: 20px;
+    border: 5px solid white;
+
+}
+
+.box p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(2, 0, 0);
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+    cursor: pointer;
+
+}    
+.box button:hover{
+    background-color: white;
+    color: rgb(66, 94, 252);
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 94, 252);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap:80px;
+    height: 100%;
+    width: 100%;
+    margin-left: 90px;
+    padding-top: 50px;
+
+    }
+
+.gridbox{
+    height: 250px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.gridbox img{
+    height: 250px;
+    width: 160px;   
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.gridbox button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(66, 94, 252);
+    font-size: 15px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.gridbox button:hover{
+    background-color: black;
+    color: white;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(225, 227, 241);
+}
+
+video {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    width: 720px;
+    height: 450px;
+    background-color: black;
+    margin: auto;
+    display: block;
+}
+    #buttons {
+    padding-top: 10px;
+    text-align: center;
+    }
+    button{
+    font-family: Helvetica Neue, "Arial", Helvetica, Verdana, sans-serif;
+    }
+    .awesome{
+    background: #222;/* url(/images/alert-overlay.png) repeat-x;*/
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer;
+    }
+    .awesome:hover {
+    background-color: #111;
+    color: #fff;
+    }
+    .large.awesome {
+    font-size: 14px;
+    padding: 8px 14px 9px;
+    }
+    .red.awesome {
+    background-color: #e33100;
+    }
+    .blue.awesome {
+    background-color: #2daebf;
+    }
+    .blue.awesome:hover {
+    background-color: #007d9a;
+    }
+    .red.awesome:hover {
+    background-color: #872300;
+    }
+
+.page5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 94, 252);
+}    
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 5, 20);
+}
+
+footer h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer ul li{
+    padding: 10px;
+    color: white;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.social_profile{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social_profile ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_profile ul li{
+    padding: 10px;
+}   
+
+.social_profile ul li a{
+    color: white;
+}
+.social_profile ul li a i{
+    font-size: 30px;
+}

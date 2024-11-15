@@ -1,0 +1,17 @@
+@media (min-width: 600px){
+
+
+    body {
+        padding: 60px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

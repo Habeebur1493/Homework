@@ -1,0 +1,62 @@
+@media (min-width: 600px){
+
+
+    .container{
+       display: none;
+    }
+    
+    nav{
+        font-size: 10px;
+    }
+    
+    nav img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    nav h1{
+        font-size: 20px;
+         }
+    
+    nav i{
+        font-size: 10px;
+    }
+    nav ul{
+        display: none;
+    }
+        
+    .close{
+        display: none;
+    }
+    
+    .main{
+        height: fit-content;
+        width: auto;
+    }
+    
+    form{
+       font-size: 10px;
+    }
+    
+    form input{
+        width: 100px;
+        height: 10px;
+       
+    }
+    
+    #a1{
+        height: 7px;
+        width: 7px;
+    }
+
+    select{
+        width: 70px;
+        height: 15px;
+    }
+    
+    button{
+        width: 75px;
+        height: 15px;
+    }
+}
+

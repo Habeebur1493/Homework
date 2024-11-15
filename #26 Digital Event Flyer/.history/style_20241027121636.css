@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+
+.A1{
+    color: red;
+}
+
+.A2{
+    color: blue;
+}
+
+.A3{
+    color: green;
+}
+
+@keyframes A1{
+   from{
+    opacity: 0;
+   }
+   to{
+    opacity: 1;
+   }
+}
